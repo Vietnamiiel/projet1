@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Pepito's Parking</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="js/jQuery.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="js/parking.js"></script>
+    <script type='text/javascript' src='https://www.bing.com/api/maps/mapcontrol?callback=GetMap' async defer></script>
+    <link rel="stylesheet" href="CSS/parking.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Noto+Serif+SC|Open+Sans|Roboto" rel="stylesheet">
+</head>
+
+<body>
+<!--CAROUSEL-->
+<div id="mon__carousel" data-ride="carousel" data-interval="5300" class="carousel__container carousel slide carousel-fade">
+    <!-- Indicateurs d'Image -->
+    <ol class="carousel-indicators">
+            <li data-target="#mon__carousel" data-slide-to="0" class="indic1 active"></li>
+            <li data-target="#mon__carousel" data-slide-to="1" class="indic2"></li>
+            <li data-target="#mon__carousel" data-slide-to="2" class="indic3"></li>
+            <li data-target="#mon__carousel" data-slide-to="3" class="indic4"></li>
+    </ol>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img class="w-100" src="Image/slider_1.jpg" alt="First slide">
+            <div class="carousel-caption caption1">
+                <h2 class="slider1__title">Pepito<span>'</span>s Parking</h2>
+                <p class="slider1__text"><span>“</span> Innovant, Simple, Rapide <span>”</span></p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img class="w-100" src="Image/slider_2.jpg" alt="Second slide">
+            <div class="carousel-caption caption2">
+                <h2 class="slider2__title">Réserver v<span>o</span>tre place</h2>
+                <p class="slider2__text">En quelques clics seulement <span>!</span></p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img class="w-100" src="Image/slider_3.jpg" alt="Third slide">
+            <div class="carousel-caption caption3">
+                <h2 class="slider3__title">Paris Intra<span>-</span>muros</h2>
+                <p class="slider3__text"> <span>+</span> de 100<span>.</span>000 places de parking disponible</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img class="w-100" src="Image/slider_4.jpg" alt="Fourth slide">
+            <div class="carousel-caption caption4">
+                <h2 class="slider4__title"> Rester <span>a</span>u chaud</h2>
+                <p class="slider4__text">Laissez nous ouvrir les barrieres pour vous <span>!</span></p>
+            </div>
+        </div>
+    </div>
+    <!-- Boutons precedent et suivant -->
+    <a class="carousel-control-prev" href="#mon__carousel" role="button" data-slide="prev">
+    </a>
+    <a class="carousel-control-next" href="#mon__carousel" role="button" data-slide="next">
+    </a>
+</div>
+
+<!--BING MAP + PARKING DATA-->
+<div class="map__container">
+    <div class="map__title"> Veuillez sélectionner un parking ci<span>-</span>dessous.</div>
+    <div id="map"></div>
+</div>
+
+<!-- Modal réservation à l'unité -->
+<div id="unite" class="modal fade">
+    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+        <div class="modal-content">
+
+            <div class="modal-header">
+                <h5 class="modal-title header_title2">Réservation à l'unité</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times</span>
+                </button>
+            </div>
+
+            <table class="table table-bordered">
+                <thead class="thead-dark">
+                    <tr>
+                        <th>Type</th>
+                        <th>Durée </th>
+                        <th>Prix (€)</th>
+                        <th>Réservation</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th rowspan="2" class="align-middle table-secondary th_title">Voiture</th>
+                        <td class="table-light">1 Heure</td>
+                        <td id="voiture_1H" class="table-light"></td>
+                        <td class="table-light"><input type="checkbox" id="choix1" class="checkbox"/></td>
+                    </tr>
+                    <tr>
+                        <td class="table-light">24 Heures</td>
+                        <td id="voiture_24H" class="table-light"></td>
+                        <td class="table-light"><input type="checkbox" id="choix2" class="checkbox"/></td>
+                    </tr>
+                    <tr>
+                        <th rowspan="2" class="align-middle table-secondary th_title">Moto</th>
+                        <td class="table-light">Demi-heure</td>
+                        <td id="moto_30mn" class="table-light"></td>
+                        <td class="table-light"><input type="checkbox" id="choix3" class="checkbox"/></td>
+                    </tr>
+                    <tr>
+                        <td class="table-light">24 Heures</td>
+                        <td id="moto_24H" class="table-light"></td>
+                        <td class="table-light"><input type="checkbox" id="choix4" class="checkbox"/></td>
+                    </tr>
+                    <tr>
+                        <th class="align-middle table-secondary th_title" rowspan="2">Réserver</th>
+                        <td class="table-light td_title">Date</td>
+                        <td class="table-light">
+                            <input id="today" type="date">
+                        </td>
+                        <td class="table-light">
+                            <input id="time" type="time" value="12:00">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="table-light td_title">Total</td>
+                        <td id="total" class="table-light"></td>
+                        <td class="table-light">
+                            <button type="button" class="confirm_resa_button">Reservez !</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<!--Modal reservation Abonnement -->
+<div id="abonne" class="modal fade">
+    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title header_title">Abonnement</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true" class="close_button">&times</span>
+                </button>
+            </div>
+            <table class="table table-bordered">
+                <thead class="thead-dark">
+                <tr>
+                    <th>Type</th>
+                    <th>Durée </th>
+                    <th>Prix (€)</th>
+                    <th>Réservation</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <th rowspan="2" class="align-middle table-secondary th_title">Voiture</th>
+                    <td class="table-light">1 mois</td>
+                    <td id="voiture_1M" class="table-light"></td>
+                    <td class="table-light"><input type="checkbox" id="choix5" class="checkbox"/></td>
+                </tr>
+                <tr>
+                    <td class="table-light">1 an</td>
+                    <td id="voiture_1a" class="table-light"></td>
+                    <td class="table-light"><input type="checkbox" id="choix6" class="checkbox"/></td>
+                </tr>
+                <tr>
+                    <th rowspan="2" class="align-middle table-secondary th_title">Moto</th>
+                    <td class="table-light">1 mois</td>
+                    <td id="moto_1M" class="table-light"></td>
+                    <td class="table-light"><input type="checkbox" id="choix7" class="checkbox"/></td>
+                </tr>
+                <tr>
+                    <td class="table-light">1 an</td>
+                    <td id="moto_1a" class="table-light"></td>
+                    <td class="table-light"><input type="checkbox" id="choix8" class="checkbox"/></td>
+                </tr>
+                <tr>
+                    <th class="align-middle table-secondary th_title" rowspan="2">Réserver</th>
+                    <th class="table-light td_title">Date</th>
+                    <td class="table-light">
+                        <input id="today2" type="date">
+                    </td>
+                    <td class="table-light">
+                        <input id="time2" type="time" value="12:00">
+                    </td>
+                </tr>
+                <tr>
+                    <th class="table-light td_title">Total</th>
+                    <td id="total2" class="table-light"></td>
+                    <td class="table-light">
+                        <button type="button" class="confirm_resa_button2">Reservez !</button>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- Modal Confirmation réservation-->
+<div id="confirm_resa" class="modal fade">
+    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title header_title3">Réservation confirmé !</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                Récapitulatif de votre commande :<br>
+                Place de parking réservé le : <span id="resa_date"></span> à <span id="resa_time"></span>H.<br>
+                Montant total de la commande : <span id="resa_prix"></span> €.<br>
+                <div class="final">
+                    Merci d<span>'</span>avoir choisi Pepito<span>'</span>s Parking pour votre réservation <span>!</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="confirm_resa2" class="modal fade">
+    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title header_title3">Réservation confirmé !</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                Récapitulatif de votre commande :<br>
+                Place de parking réservé le : <span id="resa_date2"></span> à <span id="resa_time2"></span>H.<br>
+                Montant total de la commande : <span id="resa_prix2"></span> €.
+                <div class="final">
+                    Merci d<span>'</span>avoir choisi Pepito<span>'</span>s Parking pour votre réservation <span>!</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Copyright et réseaux sociaux-->
+<footer class="footer">
+    <div class="copyright">© 2018, Designed by NGO Cyril
+    </div>
+    <div class="reseaux_container">
+        <a href="http://facebook.com" class="reseaux__link" target="_blank"><div class="facebook"></div></a>
+        <a href="https://www.instagram.com/viietnamiiel/" class="reseaux__link" target="_blank"><div class="instagram"></div></a>
+        <a href="https://fr.linkedin.com/in/cyril-ngo-17a69695" class="reseaux__link" target="_blank"><div class="linkedin"></div></a>
+        <a href="mailto:cyril_ngo@hotmail.fr" class="reseaux__link" target="_blank"><div class="mail"></div></a>
+    </div>
+</footer>
+</body>
+</html>

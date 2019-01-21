@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6ce82f6e-a55e-4631-a90f-5abb5a316e4e" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1237703558">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="33" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.177" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.20" value="2" />
+          <entry key="project.open.time.21" value="2" />
+          <entry key="project.open.time.22" value="5" />
+          <entry key="project.open.time.23" value="1" />
+          <entry key="project.open.time.24" value="5" />
+          <entry key="project.open.time.25" value="2" />
+          <entry key="project.open.time.26" value="2" />
+          <entry key="project.open.time.30" value="1" />
+          <entry key="project.open.time.4" value="6" />
+          <entry key="project.open.time.5" value="6" />
+          <entry key="project.open.time.53" value="1" />
+          <entry key="project.open.time.6" value="2" />
+          <entry key="project.opened" value="39" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="css" value="22" />
+          <entry key="html" value="17" />
+          <entry key="js" value="19" />
+          <entry key="rnc" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="22" />
+          <entry key="HTML" value="17" />
+          <entry key="JavaScript" value="19" />
+          <entry key="RNG Compact" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="css" value="4443" />
+          <entry key="html" value="3288" />
+          <entry key="js" value="9165" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CSS" value="4443" />
+          <entry key="HTML" value="3296" />
+          <entry key="JavaScript" value="9157" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="1477909958">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.18" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="html" value="8" />
+          <entry key="js" value="27" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="8" />
+          <entry key="JavaScript" value="27" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/parking.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="33" column="39" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/parking.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1335">
+              <caret line="189" column="19" lean-forward="true" selection-start-line="189" selection-start-column="19" selection-end-line="189" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>#carousel-example-generic</find>
+      <find>carousel__container</find>
+      <find>#carouselExampleIndicators</find>
+      <find>myCarousel</find>
+      <find>&lt;h3</find>
+      <find>car</find>
+      <find>modal</find>
+      <find>info</find>
+      <find>data</find>
+      <find>parse</find>
+      <find>Number</find>
+      <find>eval</find>
+      <find>parseFloat</find>
+      <find>prop</find>
+      <find>linear</find>
+      <find>text-sha</find>
+      <find>imag</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>carousel__container</replace>
+      <replace>#carousel__container</replace>
+      <replace>#myCarousel</replace>
+      <replace>mon__carousel</replace>
+      <replace>&lt;h2 class=&quot;slider__title&quot;</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$USER_HOME$/HTML_CSS/Portfolio/cv_bootstrap.html" />
+        <option value="$USER_HOME$/HTML_CSS/Portfolio/index.html" />
+        <option value="$USER_HOME$/HTML_CSS/Portfolio/portfolio.html" />
+        <option value="$USER_HOME$/HTML_CSS/Portfolio/contact.html" />
+        <option value="$USER_HOME$/HTML_CSS/Portfolio/about.html" />
+        <option value="$USER_HOME$/HTML_CSS/Portfolio/CSS/about.css" />
+        <option value="$USER_HOME$/HTML_CSS/Portfolio/CSS/contact.css" />
+        <option value="$USER_HOME$/HTML_CSS/Portfolio/CSS/portfolio.css" />
+        <option value="$PROJECT_DIR$/../../../../../Projet de fin de module/Projet de fin de module/script.js" />
+        <option value="$PROJECT_DIR$/../../../../../Projet de fin de module/Projet de fin de module/index.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/../../../../../Projet_fin_module_JS/Projet_fin_module_JS/Projet_fin_module.html" />
+        <option value="$PROJECT_DIR$/../../../../../Projet_fin_module_JS/Projet_fin_module_JS/JS/projet_fin_module.js" />
+        <option value="$PROJECT_DIR$/main.js" />
+        <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/parking.html" />
+        <option value="$PROJECT_DIR$/../cv_bootstrap.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-70" />
+    <option name="y" value="240" />
+    <option name="width" value="1745" />
+    <option name="height" value="1040" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6ce82f6e-a55e-4631-a90f-5abb5a316e4e" name="Default Changelist" comment="" />
+      <created>1544137583264</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1544137583264</updated>
+      <workItem from="1544137584778" duration="7590000" />
+      <workItem from="1544437695145" duration="3601000" />
+      <workItem from="1544449007992" duration="32664000" />
+      <workItem from="1544619398061" duration="1686000" />
+      <workItem from="1544640651690" duration="722000" />
+      <workItem from="1544690229222" duration="1075000" />
+      <workItem from="1544707453215" duration="2800000" />
+      <workItem from="1544729649493" duration="19676000" />
+      <workItem from="1545037670415" duration="31847000" />
+      <workItem from="1545140611309" duration="5119000" />
+      <workItem from="1545172544651" duration="4031000" />
+      <workItem from="1545212094431" duration="643000" />
+      <workItem from="1545212873486" duration="15218000" />
+      <workItem from="1545242918002" duration="3214000" />
+      <workItem from="1545296405186" duration="14516000" />
+      <workItem from="1546864402883" duration="34550000" />
+      <workItem from="1547064822510" duration="32799000" />
+      <workItem from="1547143314719" duration="46760000" />
+      <workItem from="1547381700572" duration="5106000" />
+      <workItem from="1547458381695" duration="12054000" />
+      <workItem from="1547481480209" duration="98000" />
+      <workItem from="1547490105630" duration="2131000" />
+      <workItem from="1547545838542" duration="1132000" />
+      <workItem from="1547547310624" duration="5344000" />
+      <workItem from="1547565525201" duration="21000" />
+      <workItem from="1547568265135" duration="4877000" />
+      <workItem from="1547593782625" duration="1289000" />
+      <workItem from="1547630347353" duration="48000" />
+      <workItem from="1547632833083" duration="520000" />
+      <workItem from="1547635941730" duration="445000" />
+      <workItem from="1547636536691" duration="125000" />
+      <workItem from="1547647451878" duration="115000" />
+      <workItem from="1547647810644" duration="47000" />
+      <workItem from="1547650232150" duration="365000" />
+      <workItem from="1547652823711" duration="77000" />
+      <workItem from="1547718476984" duration="15000" />
+      <workItem from="1547718529588" duration="18000" />
+      <workItem from="1547718958292" duration="84000" />
+      <workItem from="1547719122384" duration="404000" />
+      <workItem from="1548082943060" duration="451000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="293277000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.3294031" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32907802" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../js/bootstrap.js" />
+    <entry file="file://$USER_HOME$/HTML_CSS/Portfolio/cv_bootstrap.html" />
+    <entry file="file://$USER_HOME$/HTML_CSS/Portfolio/index.html" />
+    <entry file="file://$USER_HOME$/HTML_CSS/Portfolio/about.html" />
+    <entry file="file://$USER_HOME$/HTML_CSS/Portfolio/portfolio.html" />
+    <entry file="file://$USER_HOME$/HTML_CSS/Portfolio/contact.html" />
+    <entry file="file://$USER_HOME$/HTML_CSS/Portfolio/CSS/about.css" />
+    <entry file="file://$USER_HOME$/HTML_CSS/Portfolio/CSS/contact.css" />
+    <entry file="file://$USER_HOME$/HTML_CSS/Portfolio/CSS/portfolio.css" />
+    <entry file="file://$PROJECT_DIR$/js/bootstrap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-630">
+          <caret line="647" column="19" selection-start-line="647" selection-start-column="14" selection-end-line="647" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../../Projet de fin de module/Projet de fin de module/index.html" />
+    <entry file="file://$PROJECT_DIR$/js/jQuery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="8833" column="16" selection-start-line="8833" selection-start-column="16" selection-end-line="8833" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../../Projet de fin de module/Projet de fin de module/script.js" />
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/common.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="131" column="25" selection-start-line="131" selection-start-column="24" selection-end-line="131" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../HTML_CSS/Portfolio/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="436">
+          <caret line="78" column="9" lean-forward="true" selection-start-line="69" selection-end-line="78" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../HTML_CSS/Portfolio/CSS/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="542">
+          <caret line="214" column="1" lean-forward="true" selection-start-line="162" selection-end-line="214" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../../Projet_fin_module_JS/Projet_fin_module_JS/JS/projet_fin_module.js" />
+    <entry file="file://$PROJECT_DIR$/../../../../../Projet_fin_module_JS/Projet_fin_module_JS/Projet_fin_module.html" />
+    <entry file="file://$PROJECT_DIR$/index.html" />
+    <entry file="file://$PROJECT_DIR$/main.js" />
+    <entry file="file://$PROJECT_DIR$/css/style.css" />
+    <entry file="file://$PROJECT_DIR$/js/parking.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../css/cv.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-621" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../cv_bootstrap.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="20" column="40" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parking.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="33" column="39" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/parking.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1335">
+          <caret line="189" column="19" lean-forward="true" selection-start-line="189" selection-start-column="19" selection-end-line="189" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
